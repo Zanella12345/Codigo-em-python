@@ -2,6 +2,8 @@ import pyautogui
 from time import sleep
 #abrir mouseinfo
 import pyperclip 
+
+
 respAssis = pyautogui.confirm(
     text='O que quer fazer agr?', 
     title='Assistente', 
@@ -33,18 +35,6 @@ if respAssis == ('PythonProgram'):
         pyautogui.press('enter')
     #abrir spotfy
     for i in range(1):
-        pyautogui.moveTo(722,1053, duration=1)
-        pyautogui.leftClick(duration=0.5)
-        pyautogui.typewrite('spotify')
-        pyautogui.moveTo(1040,565, duration=1)
-        pyautogui.press('enter')
-        sleep(2)
-        pyautogui.moveTo(2237,387, duration=1)
-        pyautogui.leftClick(duration=0.5)
-        pyautogui.moveTo(2318,407, duration=1)
-        pyautogui.leftClick(duration=0.5)
-        pyautogui.moveTo(2893,95, duration=1)
-        pyautogui.leftClick(duration=0.5)
         #abri o planilhas
         for i in range(1):
             pyautogui.moveTo(3600,0, duration=1)

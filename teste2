@@ -1,0 +1,21 @@
+import pyautogui
+from time import sleep
+import pyperclip
+import time
+import webbrowser
+#copiar nome
+webbrowser.open_new('https://docs.google.com/spreadsheets/d/1tYRE7QEmxyqR_kWvRlXQUHpyFC7XxicyKIzlQUpxMW0/edit?gid=0#gid=0')
+
+for i in range(1):
+                pyautogui.moveTo(2039,363, duration=0.5)
+                sleep(0.5)
+                pyautogui.rightClick(duration=0.5)
+                pyautogui.moveTo(2365,984, duration=1)
+                sleep(1)
+                pyautogui.moveTo(2595,989, duration=1)
+                pyautogui.moveTo(2656,826, duration=1)
+                pyautogui.leftClick(duration=0.5)
+                #fechar linha
+                pyautogui.moveTo(1978,332, duration=1)
+                pyautogui.leftClick(duration=0.5)
+                #colocar em outra tabela

@@ -1,0 +1,10 @@
+Orientações para uso do robo
+Primeiro selecione o numero de clientes que desja transferir 
+para isso siga exatamente esse passo
+-->No codigo procure a linha 6
+ela é exatamente assim: 6  numeroClientes = 1
+o numero 1 vc pode alterar para o numero de clientes desejados
+lembre-se de conferir se o planilhas está aberta para que o robo funcione
+caso não consiga achar ela também tem uma bola vermelha ao lado do numero
+ATENÇÃO: Caso o robo começe a fazer coisas indesejadas mova o mouse para
+todos os lados o mais rapido possivel para para-lo. 
